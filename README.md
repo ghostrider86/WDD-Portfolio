@@ -6,6 +6,8 @@ Jacob ELzinga
 
 ## Trello Links
 -Team 6 Trello: https://trello.com/b/nr9NXhPX/team-6-board
+
+
 -My personal project Trello: https://trello.com/b/SjF8ndGO/agile-board
 
 # sleepoutside
