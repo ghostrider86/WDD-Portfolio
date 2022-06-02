@@ -11,7 +11,7 @@ Jacob ELzinga
 -My personal project Trello: https://trello.com/b/SjF8ndGO/agile-board
 
 ## Video Demonstration
-- Youtube Link: 
+- Youtube Link: https://youtu.be/TaJ43YqURc4
 
 # sleepoutside
 
