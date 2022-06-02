@@ -1,0 +1,118 @@
+<!-- LANDING PAGE -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pickMeUp | Home</title>
+    <link rel="stylesheet" href="../styles/main.css">
+</head>
+
+<body>
+    <header>
+        <script src='https://cdn.tiny.cloud/1/pji26k9d1tuzxioglgbfsrmylnoq0l6ovybxj8puer972zea/tinymce/5/tinymce.min.js' referrerpolicy="origin"></script>
+<script>
+  tinymce.init({
+    selector: '#myTextarea',
+    height: 400,
+    plugins: 'lists, link, image, media',
+    toolbar: 'h1 h2 bold italic strikethrough blockquote bullist numlist forecolor backcolor | link image media | removeformat help',
+    menubar: false,
+    setup: function (editor) {
+      editor.on('init', function (e) {
+        editor.setContent(localStorage.getItem("myContent"));
+      });
+    }
+  });
+  // Used TINY API
+</script>
+        <nav>
+            <ul>
+                <li><a href="../index.html" class="logo"><img src="../images/pick_up.png" alt="logo"></a></li>
+                <li><a href="scriptures.html">Scriptures</a></li>
+                <li><a href="quotes.html">Quotes</a></li>
+                <li><a href="memes.html">Memes</a></li>
+                <li class="active"><a href="learnMore.html">Learn More</a></li>
+            </ul>
+        </nav>
+        <section>
+            <div class="banner1">
+              <div
+                class="banner1-image"
+                style="background-image: url(../images/temple.jpg)"
+              >
+                <div class="church">
+                  <h2 class="h2church">What is the Church of Jesus Christ of Latter Day Saints?</h2>
+                  <p class="pchurch">What do they teach?</p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <div class="banner2">
+            <h2>Its all about Jesus Christ</h2>
+            <img 
+            class="fit-picture"
+              src="../images/jesus.jpeg"
+              alt="jesus"
+            />
+            <p>
+              Its all about coming closer to the savior, Learning more about his mortal life add
+              ministry can teach us many valuable principles in how to overcome daily challeges. 
+            </p>
+            <h3>
+                <bold>The Book of Mormon</bold>
+              </h3>
+            <img
+              class="fit-picture"
+              src="../images/book-of-mormon.png"
+              alt="book of mormon."
+            />
+            <p>
+              The Book of Mormon is another volume of scipture that testifies of Jesus Chirst, it involves real people 
+              overcoming life challenges by relying on the ssavior. 
+            </p>
+            <h3>
+                <bold>Where can I learn more?</bold>
+              </h3>
+              <div>
+                <p> <a href="https://www.churchofjesuschrist.org/comeuntochrist/uk/forms/request-missionary-visit" target="_blank">&#9743; Meet with the Missionaries:</a></p>
+                <p><a href="https://www.churchofjesuschrist.org/?lang=eng" target="_blank">Church Link: </a></p>
+                <img
+                    src="../images/church_logo.jpg"
+                    
+                    max width="50"
+                    rel="images"
+                    alt="Church Icon"
+                  />
+              </div>
+              <h3>
+                <bold>Have any feedback for us?</bold>
+              </h3>
+              <textarea id="myTextarea" rows="10" cols="80"></textarea>
+              <p></p>
+              <button onclick="mySave()">Save</button>
+              <button onclick="myLoad()">Load</button>
+              <script>
+                function mySave() {
+                    var myContent = tinymce.get("myTextarea").getContent();
+                    localStorage.setItem("myContent", myContent);
+                }
+                function myLoad() {
+                    var myContent = localStorage.getItem("myContent");
+                    tinymce.get("myTextarea").setContent(myContent);
+                }
+              </script>
+           
+    </main>
+    <footer>
+        <div>
+            &copy; <script>document.write(year);</script> | Jacob Elzinga | 
+            <a href="https://developer.mozilla.org/en-US" target="_blank">MDN Documentation Site</a> | BYU-Idaho | Last updated: 
+            <script>document.write(document.lastModified);</script>
+        </div>
+    </footer>
+</body>
+
+</html>

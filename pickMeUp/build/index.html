@@ -1,0 +1,68 @@
+<!-- LANDING PAGE -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="../src/styles/nav_style.js" defer></script>
+    <title>pickMeUp | Home</title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="logo"><img src="images/pick_up.PNG" alt="logo"></a></li>
+                <li><a href="views/scriptures.html">Scriptures</a></li>
+                <li><a href="views/quotes.html">Quotes</a></li>
+                <li><a href="views/memes.html">Memes</a></li>
+                <li><a href="views/learnMore.html">Learn More</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="intro">
+            <!-- TODO: Put Page intro here -->
+            <h1 class="home-heading"><span class="intro">Need a</span> <span class="pickMeUp"> </span> 
+
+                <span class="pick">Pick</span>
+                <span class="me">Me</span>
+                <span class="up">Up</span>
+                </span>
+                <span class="question"> ? </span>
+            </h1>
+            <p>This is the place to come to when you need a little "pick Me Up." Here you can generate random uplifting quotes, scriptures, or memes. Or you can click on the links above to browse.
+            <p>
+        </section>
+        <section>
+            <div class="form">
+                <span>Generate a random ...
+                    <select name="" id="categorySelect">
+                        <option value="scripture">scripture</option>
+                        <option value="quote">quote</option>
+                        <option value="meme">meme</option>
+                    </select>
+                </span>
+                <button class="button" id="fetchQuote">Go</button>
+            </div>
+            <!-- For outputting the random quote -->
+            <div id="output">
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div>
+            &copy; <script>document.write(year);</script> | Jacob Elzinga | 
+            <a href="https://developer.mozilla.org/en-US" target="_blank">MDN Documentation Site</a> | BYU-Idaho | Last updated: 
+            <script>document.write(document.lastModified);</script>
+        </div>
+    </footer>
+    <script src="controllers/index.js" type="module"></script>
+</body>
+
+</html>

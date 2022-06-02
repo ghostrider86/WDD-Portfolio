@@ -1,0 +1,47 @@
+<!-- QUOTES PAGE -->
+<!-- SCRIPTURES PAGE -->
+<!-- DO THIS PAGE FIRST. THEN WE CAN COPY/PASTE/CUSTOMIZE FOR OTHER PAGES -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/main.css">
+    <title>PickMeUp | Quotes</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html" class="logo"><img src="../images/pick_up.png" alt="logo"></a></li>
+                <li><a href="scriptures.html">Scriptures</a></li>
+                <li class="active" ><a href="quotes.html">Quotes</a></li>
+                <li><a href="memes.html">Memes</a></li>
+                <li><a href="learnMore.html">Learn More</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 class="welcome">Quotes</h1>
+        <!-- For putting the list of cards -->
+        <div id="feed">
+            <p>loading ...</p>
+        </div>
+    </main>
+    <footer>
+        <div>
+            &copy; <script>document.write(year);</script> | Jacob Elzinga | 
+            <a href="https://developer.mozilla.org/en-US" target="_blank">MDN Documentation Site</a> | BYU-Idaho | Last updated: 
+            <script>document.write(document.lastModified);</script>
+        </div>
+        <div>
+            <p>
+                Inspirational quotes provided by <a href="https://zenquotes.io/" target="_blank">ZenQuotes API</a>
+            </p>
+            </p>
+        </div>
+    </footer>
+    <script src="../controllers/quotes.js" type="module"></script>
+</body>
+</html>
