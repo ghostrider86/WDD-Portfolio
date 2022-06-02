@@ -4,6 +4,10 @@ This is my Final project, the pick me up website uses a few API's to get scriptu
 ## Contributors
 Jacob ELzinga
 
+## Trello Links
+-Team 6 Trello: https://trello.com/b/nr9NXhPX/team-6-board
+-My personal project Trello: https://trello.com/b/SjF8ndGO/agile-board
+
 # sleepoutside
 
 ## Description
