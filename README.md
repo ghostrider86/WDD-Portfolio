@@ -1,8 +1,8 @@
 # WDD 330 Portfolio
-- Pick-Me-Up website: 
-
-
-
+- Pick-Me-Up website: https://ghostrider86.github.io/WDD-Portfolio/pickMeUp/build/
+This is my Final project, the pick me up website uses a few API's to get scriptures, quotes, and memes for the user to enjoy. As well as a invitation page to learn more about the church, where the user can leave feedback if desired. 
+## Contributors
+Jacob ELzinga
 
 # sleepoutside
 
